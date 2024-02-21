@@ -94,7 +94,7 @@ class _MainPageState extends State<MainPage> {
             children: [
             CircularProgressIndicator( color: Color.fromARGB(255, 168, 168, 168),),
             Text(
-              "Connecting to sandbird server",
+              "Connecting to sendbird server",
               style: TextStyle(fontSize: 5.w, color: Color.fromARGB(255, 244, 240, 240)),
                 maxLines: 1,),
               ],
@@ -104,7 +104,7 @@ class _MainPageState extends State<MainPage> {
             Container(
               constraints: BoxConstraints(maxWidth: 70.w),
               child: Text(
-                "Error while connecting to a sandbird server",
+                "Error while connecting to a sendbird server",
                 style: TextStyle(fontSize: 5.w, color: Color.fromARGB(255, 244, 240, 240)),
                   maxLines: 1,),
             ),
@@ -121,7 +121,7 @@ class _MainPageState extends State<MainPage> {
             Container(
               constraints: BoxConstraints(maxWidth: 70.w),
               child: Text(
-                "Successfully connected to sandbird server",
+                "Successfully connected to sendbird server",
                 overflow: TextOverflow.ellipsis,
                 textAlign: TextAlign.center,
                 style: TextStyle(
